@@ -30,6 +30,7 @@ Focus areas:
 ## Selected work
 
 - [colmeio-marketplace-platform](private • 6+ years)
+  Marketplace | Supply | Goods
 
   Built and operated the full production backbone of a real-world marketplace platform:
   distributed backend systems, real-time infrastructure, fiscal automation,
