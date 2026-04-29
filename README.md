@@ -1,6 +1,9 @@
 # Victor De Genaro
 
-Systems engineer focused on autonomous agents, distributed systems, and production AI infrastructure.
+Systems Engineer focused on autonomous agents, distributed systems, and production AI infrastructure.
+
+LinkedIn: https://www.linkedin.com/in/vgenaro/  
+Open to remote senior roles in AI infrastructure, autonomous agents, and distributed systems.
 
 Contributor to Hermes-Agent (NousResearch), working on real-world agent systems and orchestration layers.
 
