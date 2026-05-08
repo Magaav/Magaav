@@ -170,6 +170,7 @@ This shaped how I build systems today: close to operations, close to failure mod
 
 - Contributor to Hermes-Agent / NousResearch
 - Creator of Hermes Orchestrator
+- 10+ years of hands-on software development experience
 - 6+ years building and operating production distributed systems
 - Experience with stateful infrastructure, real-time pipelines, and agent workflows
 - Focused on infrastructure, reliability, and autonomous systems that survive production
