@@ -1,55 +1,32 @@
-# Victor De Genaro
+# Victor de Genaro
 
-Systems Engineer focused on autonomous agents, distributed systems, and production AI infrastructure.
+Systems Engineer focused on distributed systems, production AI infrastructure, autonomous agents, and backend/platform engineering.
 
 LinkedIn: https://www.linkedin.com/in/vgenaro/  
-Open to remote roles in AI infrastructure, autonomous agents, distributed systems, and backend/platform engineering.
 
-I build systems where agents, infrastructure, data pipelines, and real-world operations meet.
+Open to remote roles in AI infrastructure, distributed systems, backend/platform engineering, autonomous agents, and evaluation tooling.
 
-Contributor to [Hermes-Agent](https://github.com/NousResearch/hermes-agent), working around agent runtime, orchestration, infrastructure, and production reliability.
+I build systems where infrastructure, data pipelines, agents, and real-world operations meet.
 
----
+My work sits at the intersection of:
 
-## What I do
+- production distributed systems
+- backend/platform engineering
+- autonomous agent infrastructure
+- evaluation and observability tooling
+- automation for real-world operations
 
-I design and operate production systems combining:
-
-- autonomous agents
-- distributed infrastructure
-- real-time data pipelines
-- high-concurrency backend systems
-- AI-driven automation
-- operational reliability
-
-My focus is not only making systems work in demos.
-
-My focus is making them survive production.
-
----
-
-## Core areas
-
-- Multi-agent orchestration
-- Agent runtime infrastructure
-- Distributed systems architecture
-- Event-driven systems
-- Real-time WebSocket infrastructure
-- Stateful data reliability
-- MySQL InnoDB Cluster operations
-- Kafka / Redis / Debezium pipelines
-- Plugin and tooling ecosystems
-- Observability, lifecycle management, and reliability
+I am especially interested in AI systems that are inspectable, reliable, observable, and useful under real operational pressure.
 
 ---
 
 ## Selected work
 
-### [colmeio-marketplace-platform](private)
+### colmeio-marketplace-platform `private`
 
 Built and operated the production backbone of a real-world marketplace platform over 6+ years.
 
-The platform combines distributed backend systems, real-time infrastructure, fiscal automation, multi-cloud deployment, and AI-driven operational workflows.
+Worked across distributed backend systems, real-time infrastructure, fiscal automation, multicloud deployment, database reliability, event-driven pipelines, and AI-driven operational workflows.
 
 Core stack:
 
@@ -62,6 +39,7 @@ Key work:
 - Built high-concurrency backend systems using Swoole
 - Implemented low-latency WebSocket pipelines with Protobuf and MsgPack
 - Built AI-driven automation pipelines and agent workflows for real business operations
+- Designed operational tooling around reliability, validation loops, and execution speed
 
 > Reliability first. Observability always. Automation only matters when it survives production.
 
@@ -71,7 +49,7 @@ Key work:
 
 Control plane for fleets of Hermes agents.
 
-Hermes Orchestrator explores how autonomous agents can be managed as real infrastructure rather than isolated scripts.
+hermes-orchestrator explores how autonomous agents can be managed as real infrastructure rather than isolated scripts.
 
 Focus areas:
 
@@ -81,18 +59,16 @@ Focus areas:
 - logs and observability
 - upgrade and rollback safety
 - multi-agent coordination
+- operational control surfaces
 
-Not just agents running.
-
+Not just agents running.  
 Agents operating as infrastructure.
 
 ---
 
-### [Hermes-Agent contributions](https://github.com/NousResearch/hermes-agent/pulls?q=is%3Apr+author%3AMagaav)
+### [NousResearch/hermes-agent contributions](https://github.com/NousResearch/hermes-agent/pulls?q=is%3Apr+author%3AMagaav)
 
-Contributor to Hermes-Agent by NousResearch.
-
-My contributions focus on agent infrastructure, orchestration, runtime behavior, and production-oriented reliability.
+Contributor around agent infrastructure, orchestration, runtime behavior, validation surfaces, and production-oriented reliability.
 
 Areas of interest:
 
@@ -101,76 +77,101 @@ Areas of interest:
 - validation before execution
 - orchestration boundaries
 - reliable agent workflows
+- observability for agent runs
+- contributor-facing infrastructure
 
 ---
 
-### [docker-nginx-nextcloud](https://github.com/Magaav/docker-nginx-nextcloud)
+### [wasm-agent](https://github.com/Magaav/hermes-orchestrator)
 
-Production-oriented deployment stack for self-hosted infrastructure using Docker, NGINX, Nextcloud, and iSCSI-backed storage.
+Experimental browser-native agent interface currently developed inside hermes-orchestrator.
 
----
+Explores WebAssembly-powered control surfaces, portable agent sandboxes, shareable agent spaces, and live browser-native environments for inspecting and steering agents.
 
-## Experience
+Focus areas:
 
-### Colmeio — Cloud & Distributed Systems Architect
-
-Built and operated a production marketplace platform over 6+ years across backend, infrastructure, database reliability, real-time communication, fiscal automation, and AI-driven workflows.
-
-Key engineering work:
-
-- high-concurrency backend systems with Swoole
-- multi-node MySQL InnoDB Cluster operations
-- event-driven architecture with Kafka, Redis, and Debezium
-- low-latency communication using WebSockets, Protobuf, and MsgPack
-- deterministic automation workflows with validation loops
-- multi-cloud infrastructure with Docker, NGINX, Oracle Cloud, and AWS
+- browser-native control surfaces
+- portable agent sandboxes
+- shareable agent spaces
+- local-first interface experiments
+- agent UI/runtime boundaries
 
 ---
 
-### Stefanini — Commercial Manager / Technical Pre-Sales
+### [Hermes-Symbiosis](https://github.com/Magaav/hackathon-hermes-symbiosis)
 
-Worked at the intersection of business, enterprise clients, and technical solution design.
+Open-source hackathon showcase combining agent orchestration, browser-native control surfaces, and failure-recovery exploration into a unified environment for inspecting and steering agent systems.
 
-- Designed cloud and distributed architectures for enterprise clients
-- Translated business needs into technical systems
-- Led technical discussions and supported solution delivery
+Built for the Hermes hackathon as a proof-of-concept around:
 
----
+- multi-agent orchestration
+- browser-native control surfaces
+- failure recovery and exploration
+- inspectable agent workflows
+- human-in-the-loop steering
 
-### Lojas Colmeia — Operations & Software Automation
-
-Led retail operations while building internal software, automation, and operational tooling.
-
-This shaped how I build systems today: close to operations, close to failure modes, and close to the people who depend on the software.
+Explores how orchestration, interface, and persistence can work together as one inspectable agent environment.
 
 ---
 
 ## Technical stack
 
 **Languages:** Python, JavaScript, PHP, C/C++, Bash  
-**Infrastructure:** Docker, NGINX, Oracle Cloud, AWS, Linux  
-**Data:** MySQL InnoDB Cluster, stored procedures, Redis, Kafka, Debezium  
+
+**Infrastructure:** Docker, NGINX, Oracle Cloud, AWS, Linux, multicloud deployment  
+
+**Data:** MySQL InnoDB Cluster, stored procedures, replication, Redis, Kafka, Debezium  
+
 **Real-time:** WebSockets, Swoole, Protobuf, MsgPack  
-**AI / Agents:** Hermes-Agent, Hermes Orchestrator, RLHF evaluation, agent orchestration, multi-step workflow evaluation, code and architecture review, OpenCV, Tesseract
+
+**AI / Agents:** NousResearch/hermes-agent, hermes-orchestrator, wasm-agent, agent orchestration, rubric-based model evaluation, human evaluation of model outputs, multi-step workflow assessment  
+
+**Computer Vision / Automation:** OpenCV, Tesseract  
 
 ---
 
-## Current focus
+## What I am looking for
 
-- multi-agent orchestration systems
-- AI infrastructure for real-world workflows
-- agent runtime reliability
-- observability for autonomous systems
-- low-latency and high-throughput backend architectures
-- scaling autonomous systems beyond demos
+I am open to roles where I can build reliable systems at the intersection of infrastructure, AI, agents, and production software.
+
+Strong fits:
+
+- AI Infrastructure Engineer
+- Agent Infrastructure Engineer
+- Data / Evaluations Engineer
+- Backend Engineer
+- Platform Engineer
+- Distributed Systems Engineer
+- Developer Tooling Engineer
+- Infrastructure / Reliability Engineer
+
+I am especially interested in teams building:
+
+- AI infrastructure
+- open agent systems
+- model evaluation platforms
+- production automation
+- distributed runtime systems
+- developer tooling
+- real-time collaboration systems
+- reliable backend platforms
 
 ---
 
 ## Signal
 
-- Contributor to Hermes-Agent / NousResearch
-- Creator of Hermes Orchestrator
 - 10+ years of hands-on software development experience
 - 6+ years building and operating production distributed systems
+- Contributor around NousResearch/hermes-agent
+- Built hermes-orchestrator, wasm-agent, and Hermes-Symbiosis around agent orchestration, observability, browser-native control surfaces, and failure-recovery exploration
+- Hands-on experience with rubric-based human evaluation of model outputs
 - Experience with stateful infrastructure, real-time pipelines, and agent workflows
-- Focused on infrastructure, reliability, and autonomous systems that survive production
+- Focused on making systems inspectable, observable, reliable, and useful under real operational pressure
+
+---
+
+## Contact
+
+LinkedIn: https://www.linkedin.com/in/vgenaro/  
+GitHub: https://github.com/Magaav  
+Email: victordegenaro@gmail.com
