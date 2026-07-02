@@ -41,6 +41,7 @@ Agents, data, and infrastructure operating as one reliable system.
 ![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python)
 ![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript)
 ![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript)
+![Go / Golang](https://img.shields.io/badge/Go%20%2F%20Golang-111827?style=for-the-badge&logo=go)
 ![PHP](https://img.shields.io/badge/PHP-111827?style=for-the-badge&logo=php)
 ![C](https://img.shields.io/badge/C-111827?style=for-the-badge&logo=c)
 ![C++](https://img.shields.io/badge/C%2B%2B-111827?style=for-the-badge&logo=cplusplus)
@@ -64,6 +65,7 @@ Agents, data, and infrastructure operating as one reliable system.
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql)
 ![Redis](https://img.shields.io/badge/Redis-111827?style=for-the-badge&logo=redis)
 ![Kafka](https://img.shields.io/badge/Kafka-111827?style=for-the-badge&logo=apachekafka)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-111827?style=for-the-badge&logo=rabbitmq)
 ![Debezium](https://img.shields.io/badge/Debezium-111827?style=for-the-badge)
 
 ### `cloud_frontend_native`
@@ -132,7 +134,7 @@ Work included distributed backend systems, data reliability, real-time infrastru
 
 Core production surface:
 
-`Docker` `NGINX` `MySQL InnoDB Cluster` `PostgreSQL` `Stored Procedures` `Redis` `Kafka` `Debezium` `Swoole` `WebSockets` `Protobuf` `MsgPack` `Oracle Cloud` `AWS` `Azure` `JavaScript` `PHP` `Python` `Bash`
+`Docker` `NGINX` `MySQL InnoDB Cluster` `PostgreSQL` `Stored Procedures` `Redis` `Kafka` `RabbitMQ` `Debezium` `Swoole` `WebSockets` `Protobuf` `MsgPack` `Oracle Cloud` `AWS` `Azure` `JavaScript` `TypeScript` `Go` `PHP` `Python` `Bash`
 
 ### `Fredericochaves` — private doctor solution
 
@@ -164,7 +166,7 @@ Designed around real-world usage rather than demo behavior: simple interfaces, s
 - **Production systems:** marketplace backbone, private doctor solutions, distributed backend operations, fiscal automation, deployment, data reliability, real-time infrastructure.
 - **Agent infrastructure:** autonomous agent orchestration, lifecycle management, validation surfaces, human-in-the-loop control, failure recovery, native bridges.
 - **LLM/RAG systems:** retrieval workflows, agent reasoning surfaces, tool selection, context routing, evaluation loops, inspectable outputs.
-- **Distributed/runtime systems:** MySQL InnoDB Cluster, PostgreSQL, Kafka, Redis, Debezium, Swoole, WebSockets, Protobuf, MsgPack.
+- **Distributed/runtime systems:** MySQL InnoDB Cluster, PostgreSQL, Kafka, RabbitMQ, Redis, Debezium, Swoole, WebSockets, Protobuf, MsgPack.
 - **Cloud/platform engineering:** Docker, NGINX, Linux, Oracle Cloud, AWS, Azure, multicloud deployment, release and operational workflows.
 - **Frontend/native surfaces:** React, Angular, PWA, WASM, Electron, Android, Kotlin, browser-native interfaces.
 - **Reliability and observability:** diagnostic surfaces, runtime evidence, validation loops, recovery paths, production pressure.
