@@ -96,14 +96,25 @@ Agents, data, and infrastructure operating as one reliable system.
 **A production-minded control plane for autonomous agent infrastructure.**
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=flat-square&logo=javascript)
+![Python Backend](https://img.shields.io/badge/Python%20Backend-111827?style=flat-square&logo=python)
 ![Agents](https://img.shields.io/badge/Autonomous%20Agents-111827?style=flat-square)
 ![Orchestration](https://img.shields.io/badge/Orchestration-111827?style=flat-square)
 ![WASM](https://img.shields.io/badge/WASM-111827?style=flat-square&logo=webassembly)
 ![PWA](https://img.shields.io/badge/PWA-111827?style=flat-square)
+![Service Worker](https://img.shields.io/badge/Service%20Worker-111827?style=flat-square)
+![IndexedDB](https://img.shields.io/badge/IndexedDB-111827?style=flat-square)
+![Agent Kernel](https://img.shields.io/badge/Agent%20Kernel-111827?style=flat-square)
 ![Native](https://img.shields.io/badge/Native%20Bridge-111827?style=flat-square)
+![Electron](https://img.shields.io/badge/Electron-111827?style=flat-square&logo=electron)
+![Android/Kotlin](https://img.shields.io/badge/Android%20%2F%20Kotlin-111827?style=flat-square&logo=android)
+![ONNX Runtime](https://img.shields.io/badge/ONNX%20Runtime-111827?style=flat-square)
+![Vosk](https://img.shields.io/badge/Vosk-111827?style=flat-square)
+![Release Feed](https://img.shields.io/badge/Release%20Feed-111827?style=flat-square)
 ![Observability](https://img.shields.io/badge/Observability-111827?style=flat-square)
 
 `hermes-orchestrator` treats agents as infrastructure instead of isolated scripts. It focuses on fleet lifecycle, host automation, plugin propagation, observability, runtime guardrails, native bridges, and browser-native control surfaces.
+
+Its app stack spans a JavaScript/PWA client, Python backend and Hermes bridge, service worker and client state, Agent Kernel route contracts, native release feeds and hot operations, Electron desktop shell, Android/Kotlin WebView shell, ONNX Runtime/Vosk voice paths, and compact diagnostics for proof and recovery.
 
 It is the control layer for systems where agents need to be inspected, steered, verified, and recovered.
 
