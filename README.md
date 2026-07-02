@@ -1,177 +1,146 @@
 # Victor de Genaro
 
-Systems Engineer focused on distributed systems, production AI infrastructure, autonomous agents, and backend/platform engineering.
+```txt
+Systems engineer | production AI infrastructure | autonomous agents | distributed systems
+```
 
-LinkedIn: https://www.linkedin.com/in/vgenaro/  
+<div align="center">
 
-Open to remote roles in AI infrastructure, distributed systems, backend/platform engineering, autonomous agents, and evaluation tooling.
+[![GitHub followers](https://img.shields.io/github/followers/Magaav?style=for-the-badge&color=111827&labelColor=0f172a)](https://github.com/Magaav)
+[![Profile views](https://komarev.com/ghpvc/?username=Magaav&style=for-the-badge&color=111827)](https://github.com/Magaav)
+[![Stack](https://img.shields.io/badge/stack-Docker%20%7C%20MySQL%20%7C%20Kafka%20%7C%20Agents-111827?style=for-the-badge)](https://github.com/Magaav?tab=repositories)
+[![Focus](https://img.shields.io/badge/focus-AI%20infrastructure-111827?style=for-the-badge)](https://github.com/Magaav?tab=repositories)
+[![Brazil / Remote](https://img.shields.io/badge/Brazil-remote%20ready-111827?style=for-the-badge)](https://github.com/Magaav)
 
-I build systems where infrastructure, data pipelines, agents, and real-world operations meet.
-
-My work sits at the intersection of:
-
-- production distributed systems
-- backend/platform engineering
-- autonomous agent infrastructure
-- evaluation and observability tooling
-- automation for real-world operations
-
-I am especially interested in AI systems that are inspectable, reliable, observable, and useful under real operational pressure.
+</div>
 
 ---
 
-## Selected work
+## `mission`
 
-### colmeio-marketplace-platform `private`
+I build reliable infrastructure where AI agents, distributed systems, data pipelines, and real-world operations meet.
 
-Built and operated the production backbone of a real-world marketplace platform over 6+ years.
-
-Worked across distributed backend systems, real-time infrastructure, fiscal automation, multicloud deployment, database reliability, event-driven pipelines, and AI-driven operational workflows.
-
-Core stack:
-
-`Docker` `NGINX` `MySQL InnoDB Cluster` `Stored Procedures` `Redis` `Kafka` `Debezium` `Swoole` `WebSockets` `Protobuf` `MsgPack` `Oracle Cloud` `JavaScript`
-
-Key work:
-
-- Operated multi-node MySQL InnoDB Cluster with replication, stored procedures, backups, and production data reliability
-- Designed event-driven architecture with Kafka, Redis, and Debezium
-- Built high-concurrency backend systems using Swoole
-- Implemented low-latency WebSocket pipelines with Protobuf and MsgPack
-- Built AI-driven automation pipelines and agent workflows for real business operations
-- Designed operational tooling around reliability, validation loops, and execution speed
-
-> Reliability first. Observability always. Automation only matters when it survives production.
+My work is focused on systems that can be inspected, debugged, recovered, and operated under production pressure. I care about durable infrastructure: control boundaries, observable workflows, validation loops, and automation that survives contact with real operations.
 
 ---
+
+## `flagship`
 
 ### [hermes-orchestrator](https://github.com/Magaav/hermes-orchestrator)
 
-Control plane for fleets of Hermes agents.
+**A production-minded control plane for autonomous agent infrastructure.**
 
-hermes-orchestrator explores how autonomous agents can be managed as real infrastructure rather than isolated scripts.
+![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=flat-square&logo=javascript)
+![Agents](https://img.shields.io/badge/Autonomous%20Agents-111827?style=flat-square)
+![Orchestration](https://img.shields.io/badge/Orchestration-111827?style=flat-square)
+![Observability](https://img.shields.io/badge/Observability-111827?style=flat-square)
 
-Focus areas:
+`hermes-orchestrator` frames agents as infrastructure instead of isolated scripts. It focuses on lifecycle management, validation surfaces, bounded control, observability, and human-in-the-loop steering for agent systems that need to be operated, not just launched.
 
-- agent lifecycle management
-- node isolation
-- plugin-based execution
-- logs and observability
-- upgrade and rollback safety
-- multi-agent coordination
-- operational control surfaces
-
-Not just agents running.  
-Agents operating as infrastructure.
+Not a demo wrapper, but a control plane for inspectable agent workflows.
 
 ---
 
-### [NousResearch/hermes-agent contributions](https://github.com/NousResearch/hermes-agent/pulls?q=is%3Apr+author%3AMagaav)
+## `production_systems`
 
-Contributor around agent infrastructure, orchestration, runtime behavior, validation surfaces, and production-oriented reliability.
+### `colmeio-marketplace-platform` - private production system
 
-Areas of interest:
+Private production marketplace backbone built and operated in the Colmeio context over 6+ years.
 
-- agent lifecycle design
-- tool and capability surfaces
-- validation before execution
-- orchestration boundaries
-- reliable agent workflows
-- observability for agent runs
-- contributor-facing infrastructure
+Work included distributed backend systems, data reliability, real-time infrastructure, fiscal automation, multicloud deployment, event-driven pipelines, AI-driven operational workflows, observability, and reliability under operational pressure.
+
+Core production stack:
+
+`Docker` `NGINX` `MySQL InnoDB Cluster` `stored procedures` `Redis` `Kafka` `Debezium` `Swoole` `WebSockets` `Protobuf` `MsgPack` `Oracle Cloud` `JavaScript`
 
 ---
 
-### [wasm-agent](https://github.com/Magaav/hermes-orchestrator)
+## `agent_infrastructure`
 
-Experimental browser-native agent interface currently developed inside hermes-orchestrator.
-
-Explores WebAssembly-powered control surfaces, portable agent sandboxes, shareable agent spaces, and live browser-native environments for inspecting and steering agents.
-
-Focus areas:
-
-- browser-native control surfaces
-- portable agent sandboxes
-- shareable agent spaces
-- local-first interface experiments
-- agent UI/runtime boundaries
+- [hermes-orchestrator](https://github.com/Magaav/hermes-orchestrator): lifecycle management, orchestration boundaries, observability, validation surfaces, and runtime guardrails for autonomous agents.
+- [wasm-agent](https://github.com/Magaav/hermes-orchestrator/tree/main/plugins/wasm-agent): browser-native control surfaces for inspecting, steering, and validating agent workflows inside `hermes-orchestrator`.
+- [Hermes-Symbiosis / hackathon-hermes-symbiosis](https://github.com/Magaav/hackathon-hermes-symbiosis): hackathon project around multi-agent orchestration, failure recovery, browser-native control, and human-in-the-loop steering.
+- [NousResearch/hermes-agent contributions](https://github.com/NousResearch/hermes-agent/pulls?q=is%3Apr+author%3AMagaav): contributions and integration work around agent infrastructure, orchestration behavior, validation, and reliability.
 
 ---
 
-### [Hermes-Symbiosis](https://github.com/Magaav/hackathon-hermes-symbiosis)
+## `selected_work`
 
-Open-source hackathon showcase combining agent orchestration, browser-native control surfaces, and failure-recovery exploration into a unified environment for inspecting and steering agent systems.
-
-Built for the Hermes hackathon as a proof-of-concept around:
-
-- multi-agent orchestration
-- browser-native control surfaces
-- failure recovery and exploration
-- inspectable agent workflows
-- human-in-the-loop steering
-
-Explores how orchestration, interface, and persistence can work together as one inspectable agent environment.
+- **Production systems:** private marketplace backbone, distributed backend operations, fiscal automation, data reliability, real-time infrastructure.
+- **Agent infrastructure:** autonomous agent orchestration, lifecycle management, validation surfaces, human-in-the-loop control, failure recovery.
+- **Distributed/runtime systems:** MySQL InnoDB Cluster, Kafka, Redis, Debezium, Swoole, WebSockets, Protobuf, MsgPack.
+- **Developer tooling:** control surfaces, automation loops, browser-native agent interfaces, contributor-facing infrastructure.
+- **Reliability and observability:** inspectable systems, operational diagnostics, evaluation loops, recovery paths, production pressure.
 
 ---
 
-## Technical stack
+## `recent_public_repos`
 
-**Languages:** Python, JavaScript, PHP, C/C++, Bash  
-
-**Infrastructure:** Docker, NGINX, Oracle Cloud, AWS, Linux, multicloud deployment  
-
-**Data:** MySQL InnoDB Cluster, stored procedures, replication, Redis, Kafka, Debezium  
-
-**Real-time:** WebSockets, Swoole, Protobuf, MsgPack  
-
-**AI / Agents:** NousResearch/hermes-agent, hermes-orchestrator, wasm-agent, agent orchestration, rubric-based model evaluation, human evaluation of model outputs, multi-step workflow assessment  
-
-**Computer Vision / Automation:** OpenCV, Tesseract  
+| Project | Stack | Focus |
+|---|---|---|
+| [hermes-orchestrator](https://github.com/Magaav/hermes-orchestrator) | JavaScript, agents, orchestration | Public flagship control plane for agent lifecycle, validation, and observability |
+| [wasm-agent](https://github.com/Magaav/hermes-orchestrator/tree/main/plugins/wasm-agent) | Web runtime, WASM direction, agents | Browser-native control surfaces inside `hermes-orchestrator` |
+| [hackathon-hermes-symbiosis](https://github.com/Magaav/hackathon-hermes-symbiosis) | Agent orchestration, browser control | Hackathon project for inspectable multi-agent workflows and failure recovery |
+| [NousResearch/hermes-agent contributions](https://github.com/NousResearch/hermes-agent/pulls?q=is%3Apr+author%3AMagaav) | Agent runtime, validation | Contributions around orchestration behavior, reliability, and agent infrastructure |
+| [docker-nginx-nextcloud](https://github.com/Magaav/docker-nginx-nextcloud) | Shell, Docker, NGINX | Nextcloud behind an NGINX reverse proxy |
+| [genie](https://github.com/Magaav/genie) | Python | AI bot experimentation |
 
 ---
 
-## What I am looking for
+## `toolchain`
 
-I am open to roles where I can build reliable systems at the intersection of infrastructure, AI, agents, and production software.
-
-Strong fits:
-
-- AI Infrastructure Engineer
-- Agent Infrastructure Engineer
-- Data / Evaluations Engineer
-- Backend Engineer
-- Platform Engineer
-- Distributed Systems Engineer
-- Developer Tooling Engineer
-- Infrastructure / Reliability Engineer
-
-I am especially interested in teams building:
-
-- AI infrastructure
-- open agent systems
-- model evaluation platforms
-- production automation
-- distributed runtime systems
-- developer tooling
-- real-time collaboration systems
-- reliable backend platforms
+![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python)
+![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript)
+![PHP](https://img.shields.io/badge/PHP-111827?style=for-the-badge&logo=php)
+![C](https://img.shields.io/badge/C-111827?style=for-the-badge&logo=c)
+![C++](https://img.shields.io/badge/C%2B%2B-111827?style=for-the-badge&logo=cplusplus)
+![Bash](https://img.shields.io/badge/Bash-111827?style=for-the-badge&logo=gnubash)
+![Docker](https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker)
+![NGINX](https://img.shields.io/badge/NGINX-111827?style=for-the-badge&logo=nginx)
+![MySQL](https://img.shields.io/badge/MySQL-111827?style=for-the-badge&logo=mysql)
+![Redis](https://img.shields.io/badge/Redis-111827?style=for-the-badge&logo=redis)
+![Kafka](https://img.shields.io/badge/Kafka-111827?style=for-the-badge&logo=apachekafka)
+![Linux](https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux)
+![AWS](https://img.shields.io/badge/AWS-111827?style=for-the-badge&logo=amazonaws)
+![Oracle Cloud](https://img.shields.io/badge/Oracle%20Cloud-111827?style=for-the-badge&logo=oracle)
+![WebSockets](https://img.shields.io/badge/WebSockets-111827?style=for-the-badge)
+![AI Agents](https://img.shields.io/badge/AI%20Agents-111827?style=for-the-badge)
+![Observability](https://img.shields.io/badge/Observability-111827?style=for-the-badge)
 
 ---
 
-## Signal
+## `stats`
 
-- 10+ years of hands-on software development experience
-- 6+ years building and operating production distributed systems
-- Contributor around NousResearch/hermes-agent
-- Built hermes-orchestrator, wasm-agent, and Hermes-Symbiosis around agent orchestration, observability, browser-native control surfaces, and failure-recovery exploration
-- Hands-on experience with rubric-based human evaluation of model outputs
-- Experience with stateful infrastructure, real-time pipelines, and agent workflows
-- Focused on making systems inspectable, observable, reliable, and useful under real operational pressure
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Magaav&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="Victor de Genaro GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Magaav&layout=compact&theme=github_dark&hide_border=true" alt="Victor de Genaro top languages" />
+</div>
 
 ---
 
-## Contact
+## `signal`
 
-LinkedIn: https://www.linkedin.com/in/vgenaro/  
-GitHub: https://github.com/Magaav  
-Email: victordegenaro@gmail.com
+- 10+ years of hands-on software development.
+- 6+ years building and operating production distributed systems.
+- Experience with stateful infrastructure, real-time pipelines, event-driven systems, and AI-driven operational workflows.
+- Focused on agent orchestration, validation surfaces, observability, and evaluation.
+- Comfortable with systems that have to recover, explain their state, and keep working under production pressure.
+- Building infrastructure for autonomous systems, not one-off demos.
+
+---
+
+## `looking_for`
+
+Open to remote roles where production infrastructure and AI systems meet:
+
+`AI Infrastructure Engineer` | `Agent Infrastructure Engineer` | `Backend Engineer` | `Platform Engineer` | `Distributed Systems Engineer` | `Data / Evaluations Engineer` | `Reliability / Infrastructure Engineer` | `Developer Tooling Engineer`
+
+Strong fit for teams building agent platforms, distributed runtimes, evaluation systems, developer infrastructure, observability, production automation, and reliable backend systems.
+
+---
+
+## `connect`
+
+[GitHub](https://github.com/Magaav) | [LinkedIn](https://www.linkedin.com/in/vgenaro/)
+
+reliable infrastructure for autonomous systems
