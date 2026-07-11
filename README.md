@@ -26,7 +26,7 @@ Senior Software Engineer | AI & distributed systems | LLM/RAG | production infra
 
 I build reliable infrastructure where AI agents, distributed systems, data pipelines, and real-world operations meet.
 
-My work sits across production backends, agent orchestration, LLM/RAG systems, real-time infrastructure, evaluation surfaces, and cloud deployment. I care about systems that can be inspected, debugged, recovered, and operated under pressure.
+My work sits across production backends, agent orchestration, LLM/MCP/RAG systems, real-time infrastructure, evaluation surfaces, and cloud-native deployment. I care about systems that can be inspected, debugged, recovered, and operated under pressure.
 
 Not just agents running.
 
